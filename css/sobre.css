@@ -1,0 +1,28 @@
+.introducao-sobre{
+    background:url("../img/bg-sobre.jpg") no-repeat center;
+}
+
+.introducao-sobre p{
+    color: white;
+    padding-top: 10px;
+}
+.conteudo-sobre h3{
+    margin-top: 75px;
+}
+
+.conteudo-sobre p{
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 500px;
+    margin-bottom: 18px;
+}
+.conteudo-sobre ul li{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+.equipe-bikcraft{
+    margin-top: 60px;
+}
+
