@@ -10,6 +10,7 @@ p {
 }
 img{
   display: block;
+  max-width: 100%; /* Deixar responsivo (max-width: 100%;)*/
 }
 
 .btn {
@@ -134,6 +135,11 @@ img{
   height: 3px;
   background: white;
 }
+
+.introducao-interna p{
+  color: white;
+  padding-top: 10px;
+}
 /* Introdução */
 
 .introducao {
@@ -155,7 +161,7 @@ img{
 }
 
 .quote-externo {
-  max-width: 340px;
+  max-width: 440px;
   margin: 0 auto;
   color: white;
   margin-bottom: 40px;
@@ -188,7 +194,7 @@ img{
 /* Produtos */
 
 .produtos {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 .produtos_lista li {
@@ -203,7 +209,6 @@ img{
 
 .produtos_desc {
   background-color: #fec63e;
-  height: 120px;
 }
 
 .produtos_desc h3 {
@@ -235,8 +240,8 @@ img{
 }
 
 .call p {
+  color: #000;
   margin-bottom: 40px;
-
 }
 
 /* Portifólio */
@@ -244,28 +249,26 @@ img{
 .portifolio{
   width: 100%;
   background: black;
-  padding: 27px;
+  padding: 50px 27px 50px 27px;
 }
 .portifolio .subtitulo{
   color: #fec63e;
 }
 .portifolio .subtitulo::after{
-  background: #483a1c;
+  background: #fec63e;
 }
 .portifolio-items li:last-child{
   margin-top: 20px;
 }
-.call  p{
+#call_p_portifolio{
   color: #fff;
 }
-.call{
-  margin-bottom: 20px;
-}
+
 
 
 /* Qualidade */
 .qualidade{
-  padding: 40px 0 ;
+  padding: 50px 0 ;
 }
 .qualidade::after{
   content: "";
@@ -312,9 +315,7 @@ img{
 #sustentabilidade{
   padding-right: 100px;
 }
-.call p{
-  color:black
-}
+
 
 /* Quebra */
 
@@ -371,8 +372,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .footer-sociais ul li a{
   border: 3px solid #fec63e;
   display: block;
-  width: 60px;
-  height: 60px;
   padding: 11px;
 }
 .footer-sociais ul li a:hover{

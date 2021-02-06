@@ -1,0 +1,101 @@
+   /* Deixar o grid responsivo, fazer um corte no layout a partir de determinada width */
+  /* only screen =  Só para telas! */
+  @media only screen and (min-width:788px) and (max-width:979px){
+  /* Entre esses valores o grid será adptado para o TABLET(788 ate 979). */
+
+  /* Qualidade Home*/
+  .qualidade::after{
+    right: 82px;
+  }
+  .qualidade-lista li{
+    padding: 0 10px;
+  }
+  #durabilidade{
+    padding-left:0px;
+  }
+  #sustentabilidade{
+    padding-right: 0px;
+  }
+
+  /* FOOTER  Redes Sociais*/
+  .footer-sociais ul li a{
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 6px;
+  }
+  .footer-sociais ul li a img{
+      height: 26px;
+      width: 26px;
+  }
+
+
+
+  }
+
+  /* CELULAR */
+  @media only screen and (max-width: 787px) {
+      /* Entre esses valores o grid será adptado para o CELULAR(0 a 787). */
+       /* HEADER */
+      .header{
+        position: relative;
+        padding-bottom: 0;
+    }
+    .header img{
+        margin:0 auto 10px;
+    }
+    .header_menu{
+        text-align: center;
+    }
+    .header_menu ul li {
+        margin: 5px;
+    }
+    .header_menu ul li a{
+        border: 4px solid #000;
+        width: 136px;
+        display: block;
+        float: left;
+    }
+    .header_menu ul li a:hover{
+        border-color: #fff;
+    }
+
+    /* Introducao */
+    .introducao{
+        margin-top: 0px;
+        padding-top: 20px;
+        background: url("../img/bg-mobile.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .quote-externo {
+        margin-bottom: 20px;
+    }
+    .quote-externo p {
+        font-size: 16px;
+    }
+    .quote-externo cite {
+        font-size: 12px;
+    }
+
+    /* Call */
+    .call {
+        padding-top: 5px;
+      }
+    /* Qualidade Home*/
+    .qualidade::after{
+        display: none;
+    }
+    .qualidade-lista li{
+        padding: 0 10px;
+    }
+    #durabilidade{
+        padding-left:0px;
+    }
+    #sustentabilidade{
+        padding-right: 0px;
+        margin-bottom: 40px;
+    }
+
+
+
+      
+  }
