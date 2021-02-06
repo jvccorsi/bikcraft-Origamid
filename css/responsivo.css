@@ -28,6 +28,24 @@
       width: 26px;
   }
 
+  /* PRODUTO  */
+
+  .produto-h2  {
+    top: -250px;
+    margin-bottom: -100px;
+    }
+    .icon-prod {
+        padding: 41px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        padding: 10px 40px;
+        height: 122px;
+    }
+    .produto-info ul li {
+        width: 181px;
+        height: 49px;
+    }
 
 
   }
@@ -58,6 +76,11 @@
     .header_menu ul li a:hover{
         border-color: #fff;
     }
+    .header_menu ul li a.menu-ativo{
+        color:#fff;
+        border-color: #fff;
+      }
+
 
     /* Introducao */
     .introducao{
@@ -76,6 +99,11 @@
         font-size: 12px;
     }
 
+    /* Introducao interna */
+    .introducao-interna{
+        margin-top: 0px;
+      }
+
     /* Call */
     .call {
         padding-top: 5px;
@@ -93,6 +121,60 @@
     #sustentabilidade{
         padding-right: 0px;
         margin-bottom: 40px;
+    }
+
+    /* SOBRE */
+    .conteudo-sobre p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    .conteudo-sobre h3{
+        margin-top: 30px;
+    }
+    .conteudo-sobre ul li{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .subtitulo-interno {
+        line-height: 30px;
+    }
+
+    /* PRODUTOS */
+    .produto-h2  {
+        top: -180px;
+        margin-bottom: -130px;
+    }
+    .icon-prod {
+        padding: 41px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        padding: 10px 40px;
+        height: auto;
+    }
+    .produto-info ul li {
+        width: 149px;
+        height: 49px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
+    .form {
+        padding: 0px;
+    }
+    .dados-orcamento ul {
+        padding-right: 0px;
+    
+    }
+
+    /*PAGINA CONTATO */
+    .dados-contato{
+        padding-left: 0px;
+    }
+    
+    .form {
+        padding: 0px;
     }
 
 

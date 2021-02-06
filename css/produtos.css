@@ -1,4 +1,4 @@
-h2 {
+.produto-h2  {
     font-size: 36px;
     font-weight: bold;
     line-height: 40px;
@@ -12,8 +12,8 @@ h2 {
     margin-bottom: -100px;
 }
 
-h2:before,
-h2:after {
+.produto-h2:before,
+.produto-h2:after {
     content: "";
     display: block;
     width: 60px;
